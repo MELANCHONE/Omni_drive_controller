@@ -1,0 +1,7 @@
+<library path="omni_drive_controller">
+  <class name="omni_drive_controller/OmniDriveController"
+         type="omni_drive_controller::OmniDriveController" base_class_type="controller_interface::ChainableControllerInterface">
+  <description>
+    The omni drive controller transforms linear and angular velocity messages into signals for each wheel(s) for a 4 omni wheeled robot.</description>
+  </class>
+</library>
